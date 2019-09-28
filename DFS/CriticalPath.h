@@ -1,6 +1,7 @@
 #ifndef CRITICALPATH_H
 #define CRITICALPATH_H
 #include "main.h"
+#include "ConstructGraph.h"
 
 int EarliestTime(GraphAdjList &G);
 void criticalPath(GraphAdjList G);

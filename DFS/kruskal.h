@@ -1,6 +1,8 @@
 #ifndef KRUSKAL_H
 #define KRUSKAL_H
 #include "main.h"
+#include "ConstructGraph.h"
+
 using namespace std;
 
 struct Edge{//以边为描述对象

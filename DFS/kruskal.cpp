@@ -1,4 +1,5 @@
 #include "kruskal.h"
+
 using namespace std;
 
 /*

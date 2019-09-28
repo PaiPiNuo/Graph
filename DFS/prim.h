@@ -1,6 +1,7 @@
 #ifndef PRIM_H
 #define PRIM_H
 #include "main.h"
+#include "ConstructGraph.h"
 
 using namespace std;
 

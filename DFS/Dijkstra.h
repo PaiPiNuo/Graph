@@ -1,6 +1,7 @@
 #ifndef DIJKSTRA_H
 #define DIJKSTRA_H
 #include "main.h"
+#include "ConstructGraph.h"
 
 void dij(GraphAdjList G, int v0);
 void Floyd(GraphAdjList G);
