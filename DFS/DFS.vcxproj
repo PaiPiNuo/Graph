@@ -78,6 +78,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="criticalPath.cpp" />
+    <ClCompile Include="DFS_BFS.cpp" />
     <ClCompile Include="Dijkstra.cpp" />
     <ClCompile Include="kruskal.cpp" />
     <ClCompile Include="main.cpp" />
@@ -86,6 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CriticalPath.h" />
+    <ClInclude Include="DFS_BFS.h" />
     <ClInclude Include="Dijkstra.h" />
     <ClInclude Include="kruskal.h" />
     <ClInclude Include="main.h" />

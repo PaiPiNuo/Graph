@@ -4,6 +4,7 @@
 #include <vector>
 #include <queue>
 #include <stack>
+#include "ConstructGraph.h"
 using namespace std;
 
 #define INFTY 2147483647
@@ -18,6 +19,7 @@ using namespace std;
 /*
 广度遍历算法
 */
+
 //void bfs(GraphAdjList &G, int v);
 //void Travel_BFS(GraphAdjList G);
 #endif

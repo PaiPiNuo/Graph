@@ -6,7 +6,7 @@ using namespace std;
 typedef int dataType;
 //边表节点-结构体，adjvex用来存储邻接点的位置
 typedef struct EdgeNode {
-	dataType adjvex;
+	dataType adjvex;//Point to the next Node number
 	int valueEdge;
 	struct EdgeNode *next;
 }EdgeNode;

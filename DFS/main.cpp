@@ -5,6 +5,7 @@
 #include "CriticalPath.h"
 #include "Dijkstra.h"
 #include "ConstructGraph.h"
+#include "DFS_BFS.h"
 
 using namespace std;
 
@@ -24,7 +25,9 @@ int main(){
 	cin >> G.networkFlag;
 
 	CreateGraph_Edge(G);
-	checkGraph(G);
+	//checkGraph(G);
+	//my_TravelDFS(G);
+	my_TravelBFS(G);
 	//cout << "Starting visitting the Graph in depth first search:"<< endl;
 	//Travel_DFS(G);//深度遍历
 	//Travel_BFS(G);//广度遍历

@@ -70,6 +70,7 @@ void CreateGraph_Edge(GraphAdjList &G) {
 		cout << "Please input relationship in turn(such as (Node)0 (Node)1 (value)9 ENTER):" << endl;
 	else
 		cout << "Please input relationship in turn(such as (Node)0 (Node)1 ENTER):" << endl;
+	cout << "Attention: Index start from 0"<< endl;
 	int firstNode, SecondNode, edgeValue;
 	EdgeNode *e, *p;
 	for (int i = 0; i < G.numEdge; i++) {
