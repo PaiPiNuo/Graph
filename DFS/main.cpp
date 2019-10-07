@@ -6,6 +6,9 @@
 #include "Dijkstra.h"
 #include "ConstructGraph.h"
 #include "DFS_BFS.h"
+#include "My_Prim.h"
+#include "my_TopoSort.h"
+#include "my_KeyPath.h"
 
 using namespace std;
 
@@ -25,9 +28,12 @@ int main(){
 	cin >> G.networkFlag;
 
 	CreateGraph_Edge(G);
-	//checkGraph(G);
+	checkGraph(G);
 	//my_TravelDFS(G);
-	my_TravelBFS(G);
+	//my_TravelBFS(G);
+	//my_TopoSort(G);
+	My_SlowliestTime(G);
+	showAllPath(G, 0);
 	//cout << "Starting visitting the Graph in depth first search:"<< endl;
 	//Travel_DFS(G);//深度遍历
 	//Travel_BFS(G);//广度遍历

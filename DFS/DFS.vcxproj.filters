@@ -36,6 +36,18 @@
     <ClCompile Include="DFS_BFS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ConstructGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="my_KeyPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="My_Prim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="my_TopoSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="prim.h">
@@ -57,6 +69,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DFS_BFS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="my_KeyPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="My_Prim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="my_TopoSort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

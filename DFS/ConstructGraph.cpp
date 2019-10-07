@@ -62,6 +62,7 @@ void CreateGraph_Edge(GraphAdjList &G) {
 		G.adjList[i].indegree = 0;//入度为零
 		G.adjList[i].outdegree = 0;//出度为零
 		G.adjList[i].firstEdge = NULL;
+		G.adjList[i].happenTime = 0;
 		G.adjList[i].visited = false;
 		G.adjList[i].keyPathPoint = false;
 		G.adjList[i].solved = false;

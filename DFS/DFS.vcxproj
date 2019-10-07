@@ -77,20 +77,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ConstructGraph.cpp" />
     <ClCompile Include="criticalPath.cpp" />
     <ClCompile Include="DFS_BFS.cpp" />
     <ClCompile Include="Dijkstra.cpp" />
     <ClCompile Include="kruskal.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="my_KeyPath.cpp" />
+    <ClCompile Include="My_Prim.cpp" />
+    <ClCompile Include="my_TopoSort.cpp" />
     <ClCompile Include="prim.cpp" />
     <ClCompile Include="TopoSort.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ConstructGraph.h" />
     <ClInclude Include="CriticalPath.h" />
     <ClInclude Include="DFS_BFS.h" />
     <ClInclude Include="Dijkstra.h" />
     <ClInclude Include="kruskal.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="my_KeyPath.h" />
+    <ClInclude Include="My_Prim.h" />
+    <ClInclude Include="my_TopoSort.h" />
     <ClInclude Include="prim.h" />
     <ClInclude Include="TopoSort.h" />
   </ItemGroup>
